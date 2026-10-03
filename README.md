@@ -12,7 +12,7 @@ Dies ist das Ergebnis eines Freizeitprojektes. Ich bin kein professioneller Prog
 
 
 
-If you want to support my work, you can support via paypal: https://www.paypal.com/paypalme/amelu96
+If you want to support "The masterpice of gonzo7734", you can support him via paypal: https://www.paypal.com/paypalme/amelu96 Shoutout to gonzo7734 thx :)
 
 
 
