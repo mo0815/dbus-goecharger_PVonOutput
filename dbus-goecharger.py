@@ -199,9 +199,9 @@ class DbusGoeChargerService:
         logging.warning("pGrid wurde ermittelt: %s" % (pGrid))
 
         # pPv ermitteln. Kumulierte Leistung aller PV Anlagen auf allen Phasen
-        L1pPower = float((bus.get_object('com.victronenergy.system', '/Ac/PvOnGrid/L1/Power')).GetValue())
-        L2pPower = float((bus.get_object('com.victronenergy.system', '/Ac/PvOnGrid/L2/Power')).GetValue())
-        L3pPower = float((bus.get_object('com.victronenergy.system', '/Ac/PvOnGrid/L3/Power')).GetValue())
+        L1pPower = float((bus.get_object('com.victronenergy.system', '/Ac/PvOnOutput/L1/Power')).GetValue())
+        L2pPower = float((bus.get_object('com.victronenergy.system', '/Ac/PvOnOutput/L2/Power')).GetValue())
+        L3pPower = float((bus.get_object('com.victronenergy.system', '/Ac/PvOnOutput/L3/Power')).GetValue())
         #DcPvPower = float((bus.get_object('com.victronenergy.system', '/Dc/Pv/Power')).GetValue())
         pPv = L1pPower + L2pPower + L3pPower #+ DcPvPower
         logging.warning("pPv wurde ermittelt: %s" % (pPv))
