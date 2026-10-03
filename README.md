@@ -44,9 +44,10 @@ Idea is inspired on @fabian-lauer and @trixing project linked below, many thanks
 - https://github.com/fabian-lauer/dbus-shelly-3em-smartmeter
 - https://github.com/trixing/venus.dbus-twc3
 
-Based on good work from @0x7878 and @vikt0rm
+Based on good work from @0x7878 and @vikt0rm and gonzo7734
 - https://github.com/vikt0rm/dbus-goecharger
 - https://github.com/0x7878/dbus-goecharger
+- https://github.com/gonzo7734/dbus-goecharger
 
 ## How it works
 ### My setup (only relevant for this script)
