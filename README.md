@@ -50,14 +50,10 @@ Based on good work from @0x7878 and @vikt0rm and gonzo7734
 - https://github.com/gonzo7734/dbus-goecharger
 
 ## How it works
-### My setup (only relevant for this script)
-- Grid: 3-Phase installation
-- Venus OS on Raspberry PI 3b 4GB RAM - Firmware v3.34
-  - MK3-USB connected to Mulitplus II 48/5000 on Phase 1
-  - Connected via LAN to my home-lan
-- go-eCharger hardware version 4
-  - Make sure in your go-eCharger app that _http api v2_ is activated
-  - Connected via WiFi to my home-lan (same subnet as Raspberry)
+### My setup
+- Grid: 3-Phase installation 230v/400v
+- Ekrano + 3x15kva MPII + victron ct75em + 3xAC PV shelly 3em kaco/sma/kostal (28kva)+ opendtu/ahoydtu 3x hoymiles 4kva +8kwp DC MPPT every PV is installed on the (half side island)
+  - Make sure in your go-eCharger app that _http api v2_ is activated and both ess and go e is @same VLAN /subnet
 
 ### Details / Process
 What is the script doing:
